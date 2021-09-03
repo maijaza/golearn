@@ -1,0 +1,21 @@
+topic
+- interface (implement func) ok
+- pointer ok
+- routine
+- channel
+- database and mock
+- unittest
+- swagger
+- gracefull shutdown and latency
+
+- unit test
+- http server
+- logrus
+- orm
+
+
+package
+- strconv
+- string
+- math
+- io reader  (files, network connetion, compress)
