@@ -19,3 +19,19 @@ package
 - string
 - math
 - io reader  (files, network connetion, compress)
+
+
+
+----- source -----
+
+https://gobyexample.com/
+https://gobyexample.com/constants
+
+
+https://www.callicoder.com/categories/golang/
+https://golang.org/doc/effective_go
+https://pkg.go.dev/builtin#append
+https://blog.golang.org/go-slices-usage-and-internals
+https://pkg.go.dev/strings#Fields
+ 
+https://yourbasic.org/golang/
