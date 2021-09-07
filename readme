@@ -1,25 +1,37 @@
 topic
-- interface (implement func) ok
-- pointer ok
+- interface (implement func) > ok
+- pointer > ok
+- error > ok
+
 - routine
 - channel
 - database and mock
 - unittest
 - swagger
 - gracefull shutdown and latency
+- external service
 
 - unit test
-- http server
+- http server // original http handle before go fiber
+- struct json, xml
+- jwt 
+- log
 - logrus
+- config => viper
 - orm
-
+- fmt
+- file
+https://go.dev/blog/defer-panic-and-recover
 
 package
 - strconv
 - string
 - math
 - io reader  (files, network connetion, compress)
+- fiber
 
+- kafka
+-redis
 
 
 ----- source -----
@@ -35,3 +47,13 @@ https://blog.golang.org/go-slices-usage-and-internals
 https://pkg.go.dev/strings#Fields
  
 https://yourbasic.org/golang/
+
+
+
+
+=======================================
+no use
+https://gobyexample.com/spawning-processes
+https://gobyexample.com/execing-processes
+https://gobyexample.com/signals
+os.Exit(0)
