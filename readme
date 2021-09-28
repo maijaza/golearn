@@ -2,24 +2,28 @@ topic
 - interface (implement func) > ok
 - pointer > ok
 - error > ok
+- routine > ok
+- channel > ok
+- external service > ok > use http
 
-- routine
-- channel
-- database and mock
-- unittest
-- swagger
-- gracefull shutdown and latency
-- external service
 
-- unit test
-- http server // original http handle before go fiber
-- struct json, xml
-- jwt 
+- database and mock   =>  ok
+- swagger           ==> need install , need write comment
+- gracefull shutdown and latency    ????
+
+
+- unit test (other)        => ok
+- http server // original http handle before go fiber       => app01    > ok
+- struct json, xml                                          => app01    >ok
+
+- fmt
 - log
 - logrus
 - config => viper
-- orm
-- fmt
+- base64
+
+- jwt  (framework)                                 ->  
+- orm                                               => gorm > app02 > just demo
 - file
 https://go.dev/blog/defer-panic-and-recover
 
@@ -28,11 +32,21 @@ package
 - string
 - math
 - io reader  (files, network connetion, compress)
-- fiber
+
+
+
+- fiber                                   >> appfiber for demo
+https://docs.gofiber.io/api/ is best for document
+https://docs.gofiber.io/api/constants => constant
+https://docs.gofiber.io/guide/validation => validate struct
 
 - kafka
 -redis
 
+
+
+grpc
+etherium
 
 ----- source -----
 
@@ -57,3 +71,14 @@ https://gobyexample.com/spawning-processes
 https://gobyexample.com/execing-processes
 https://gobyexample.com/signals
 os.Exit(0)
+
+
+http://go-database-sql.org/
+
+
+https://prosbeginner.medium.com/%E0%B8%AB%E0%B8%B1%E0%B8%94-golang-part-3-52a3cdcc940a
+https://gorm.io/index.html
+https://github.com/denisenkom/go-mssqldb
+https://www.somkiat.cc/manage-database-mysql-with-golang/
+https://golang.org/doc/database/querying
+https://github.com/gofiber/fiber

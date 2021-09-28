@@ -1,0 +1,5 @@
+module golearn
+
+go 1.17
+
+require github.com/denisenkom/go-mssqldb v0.10.0
